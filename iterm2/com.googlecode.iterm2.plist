@@ -37,7 +37,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop/Projetos/dotfiles</string>
+	<string>~/Desktop/Projetos/dotfiles/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -79,7 +79,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>673 270 801 429 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>317 283 796 473 0 0 1680 1028 </string>
+	<string>-1137 393 796 473 -1600 150 1600 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 184 1680 844 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -1192,7 +1192,7 @@
 			<key>HotKey Modifier Activation</key>
 			<integer>0</integer>
 			<key>HotKey Modifier Flags</key>
-			<integer>3145728</integer>
+			<integer>3670016</integer>
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
@@ -1763,7 +1763,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/guilherme.machado/Desktop/Projetos/dotfiles</string>
+	<string>/Users/guilherme.machado/Desktop/Projetos/dotfiles/iterm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1773,7 +1773,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-26T14:56:54Z</date>
+	<date>2018-02-14T20:15:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
