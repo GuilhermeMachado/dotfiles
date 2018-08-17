@@ -10,6 +10,7 @@ cask 'slack'
 cask 'franz'
 cask 'skype'
 cask 'spotify'
+cask '1password'
 
 #developer
 cask 'iterm2'
