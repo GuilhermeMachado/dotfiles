@@ -13,6 +13,7 @@ cask 'spotify'
 cask '1password'
 
 #developer
+cask 'charles'
 cask 'iterm2'
 cask 'atom'
 cask 'postman'
