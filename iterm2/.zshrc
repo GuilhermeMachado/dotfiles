@@ -96,3 +96,22 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig=“mate ~/.zshrc”
 # alias ohmyzsh=“mate ~/.oh-my-zsh”
+
+# LANGUAGE SUPPORT
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# ATOM SUPPORT
+# alias atom='sh /Applications/Atom.app/Contents/Resources/app/atom.sh'
+
+# PYENV SUPPORT
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init -)"
+# fi
+
+# RBENV SUPPORT
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
