@@ -12,6 +12,7 @@ cask '1password'
 cask 'notion'
 cask 'discord'
 cask 'switchaudio-osx'
+cask 'blueutil'
 
 #developer
 cask 'charles'
