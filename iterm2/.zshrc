@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/guilhermemachado/.oh-my-zsh
+export ZSH=/Users/gmachado/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to “random”
 # it’ll load a random theme each time that oh-my-zsh is loaded.
@@ -101,9 +101,6 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# ATOM SUPPORT
-# alias atom='sh /Applications/Atom.app/Contents/Resources/app/atom.sh'
-
 # PYENV SUPPORT
 # export PYENV_ROOT="$HOME/.pyenv"
 # export PATH="$PYENV_ROOT/bin:$PATH"
@@ -113,5 +110,5 @@ export LANG=en_US.UTF-8
 # fi
 
 # RBENV SUPPORT
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
