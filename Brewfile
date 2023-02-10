@@ -1,8 +1,6 @@
-#swift
 brew 'swiftlint'
-
-#ruby
 brew 'rbenv'
+brew 'tig'
 
 cask_args appdir: "/Applications"
 cask 'google-chrome'
@@ -11,13 +9,8 @@ cask 'spotify'
 cask '1password'
 cask 'notion'
 cask 'discord'
-cask 'switchaudio-osx'
-cask 'blueutil'
-
-#developer
 cask 'charles'
 cask 'iterm2'
-cask 'tig'
 cask 'postman'
 cask 'lepton'
 cask 'brackets'
