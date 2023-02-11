@@ -1,6 +1,6 @@
 # Brewfile + Iterm2 + Ruby Configuration
 
-Welcome to my repository, designed to simplify the setup of my development environment. Here, you will find a Brewfile, swift scripts for Iterm2, and ruby configuration.
+Are you tired of configuring your Mac every time you switch to a new machine? Fear not, this repository has got you covered! Welcome to my repository, designed to simplify the setup of your development environment with a few simple steps.
 
 ## 1. Using the Brewfile
 The Brewfile in this repository contains a list of applications and utilities that I use in my development environment. To use the Brewfile, you will need to have Homebrew installed on your machine.
@@ -24,7 +24,7 @@ These scripts will install and configure Oh My Zsh, the Agnoster theme, and the 
 To configure Ruby, you will need to run the following two swift scripts:
 
 ```
-$ swift install_ruby_version.swift <version>
+$ swift install_ruby_version.swift 
 $ swift install_bundler_and_gems.swift
 ```
-These scripts will install the desired Ruby version and the bundler gem, along with any other gems specified in the script.
+These scripts will install the desired Ruby version and the bundler gem, along with any other gems specified in the Gemfile.
