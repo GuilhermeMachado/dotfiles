@@ -1,5 +1,3 @@
-# Brewfile + Iterm2 + Ruby Configuration
-
 Are you tired of configuring your Mac every time you switch to a new machine? Fear not, this repository has got you covered! Welcome to my repository, designed to simplify the setup of your development environment with a few simple steps.
 
 ## 1. Using the Brewfile
