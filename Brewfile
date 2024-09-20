@@ -1,6 +1,7 @@
 brew 'swiftlint'
 brew 'rbenv'
 brew 'tig'
+brew 'rectangle'
 
 cask_args appdir: "/Applications"
 cask 'google-chrome'
