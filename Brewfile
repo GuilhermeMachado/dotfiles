@@ -1,7 +1,5 @@
-brew 'swiftlint'
 brew 'rbenv'
 brew 'tig'
-brew 'rectangle'
 
 cask_args appdir: "/Applications"
 cask 'google-chrome'
@@ -16,3 +14,4 @@ cask 'postman'
 cask 'lepton'
 cask 'brackets'
 cask 'visual-studio-code'
+cask 'rectangle'
