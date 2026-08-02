@@ -9,14 +9,16 @@ $ brew bundle
 
 This will install all of the applications and utilities listed in the Brewfile.
 
-## 2. Iterm2 Configuration
-To configure Iterm2, you will need to run the following three swift scripts:
+## 2. Terminal Configuration
 ```
-$ swift install_oh_my_zsh.swift
-$ swift install_agnoster.swift
-$ swift install_powerline_fonts.swift
+$ make terminal
 ```
-These scripts will install and configure Oh My Zsh, the Agnoster theme, and the Powerline fonts, respectively. This will give you a beautiful and functional terminal environment with all the necessary tools and customization.
+This installs Oh My Zsh if needed, sets up the Agnoster theme, and symlinks `.zshrc`. The first time it runs on a machine, it also asks for this machine's git author name/email and saves them to `~/.dotfiles-profile.zsh` — a machine-local file that is never tracked by git. `terminal/.zshrc` sources it automatically.
+
+To install the Powerline-patched fonts needed for the theme's glyphs:
+```
+$ swift iterm2/install_powerline_fonts.swift
+```
 
 ## 3. Ruby Configuration
 To configure Ruby, you will need to run the following two swift scripts:
