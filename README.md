@@ -25,3 +25,9 @@ $ swift iterm2/install_powerline_fonts.swift
 $ make ruby
 ```
 This installs the Ruby version pinned in `Ruby/.ruby-version` via rbenv (skips if already installed), sets it as the rbenv global version, then installs bundler and the gems from `Ruby/Gemfile`.
+
+## 4. Python Configuration
+```
+$ make python
+```
+This installs the Python version pinned in `Python/.python-version` via pyenv (skips if already installed), sets it as the pyenv global version, and upgrades pip.

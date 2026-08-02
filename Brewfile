@@ -1,4 +1,5 @@
 brew 'rbenv'
+brew 'pyenv'
 brew 'tig'
 
 cask_args appdir: "/Applications"

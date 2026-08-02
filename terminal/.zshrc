@@ -36,5 +36,10 @@ export LANG=en_US.UTF-8
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# PYENV SUPPORT
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
 # Configuração local desta máquina (não versionada). Criada por `make terminal`.
 [[ -f "$HOME/.dotfiles-profile.zsh" ]] && source "$HOME/.dotfiles-profile.zsh"
