@@ -21,10 +21,7 @@ $ swift iterm2/install_powerline_fonts.swift
 ```
 
 ## 3. Ruby Configuration
-To configure Ruby, you will need to run the following two swift scripts:
-
 ```
-$ swift install_ruby_version.swift 
-$ swift install_bundler_and_gems.swift
+$ make ruby
 ```
-These scripts will install the desired Ruby version and the bundler gem, along with any other gems specified in the Gemfile.
+This installs the Ruby version pinned in `Ruby/.ruby-version` via rbenv (skips if already installed), sets it as the rbenv global version, then installs bundler and the gems from `Ruby/Gemfile`.
