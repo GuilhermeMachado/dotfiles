@@ -17,6 +17,11 @@ plugins=(
  macos
  rbenv
  ruby
+ pip
+ gh
+ rbenv
+ python
+ tig
 )
 
 source $ZSH/oh-my-zsh.sh
